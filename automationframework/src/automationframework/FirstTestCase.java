@@ -7,9 +7,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class FirstTestCase {
 	        public static String Browser;
+	        //global variable
 	        static WebDriver driver;
 			public static void main(String[] args) throws InterruptedException
 			{
+				
 	       //SetBrowser();
 	       SetBrowserConfig();
 	       RunBrowser();
