@@ -11,7 +11,7 @@ public class FirstTestCase {
 	        static WebDriver driver;
 			public static void main(String[] args) throws InterruptedException
 			{
-				
+			//method Declaration
 	       //SetBrowser();
 	       SetBrowserConfig();
 	       RunBrowser();
